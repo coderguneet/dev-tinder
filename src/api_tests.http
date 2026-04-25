@@ -1,0 +1,12 @@
+POST  http://localhost:3333/signup
+Content-Type: application/json
+
+{
+    "firstName":"ravi",
+    "lastName":"prasad",
+    "emailId":"ravi@gmail.com",
+    "password":"ravi@123",
+    "age":19,
+    "gender":"male",
+    "skills":["playboy","millionare","philanthropist"]
+}
